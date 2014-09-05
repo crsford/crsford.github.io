@@ -1,0 +1,32 @@
+grunt.initConfig({
+    watch: {
+        css: {
+            files: ['**/*.sass', '_scss/*.scss', '**/*.scss']
+            tasks: ['sass'],
+        },
+        scripts: {
+            files: ['**/*.js'],
+            tasks: ['jshint'],
+            options: {
+                spawn: false,
+                interrupt: true,
+                debounceDelay: 250,
+            },
+        all: {
+            options: {
+                reload: true,
+                livereload: true,
+                },
+            },
+        },
+    },
+    jshint: : {
+        all: {
+            src: ['**/*.js','*.js'],
+        },
+    },
+});
+grunt.event.on('watch', function(action, filepath, target) {
+    grunt.log.write1n(target + ': ' + filepath ' has ' + action);
+    grunt.config('jshint.all.js', filepath);
+});

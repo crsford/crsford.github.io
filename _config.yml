@@ -1,0 +1,20 @@
+# Site settings
+title: Christine Ford
+subtitle: Novelist, Poet, Teacher
+email: christineford53@gmail.com
+description: > 
+ Christine Ford is a published children's book author, advocate for adult literacy, and an extraodinary teacher.  A woman of many talents; she currently resides in Yangju, South Korea teaching English as a Secondary Language.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://christineford.org" # the base hostname & protocol for your site
+
+
+# Build settings
+highlighter: pygments
+
+include:
+- _javascript
+- _stylesheets
+
+markdown: rdiscount
+
+lang: en

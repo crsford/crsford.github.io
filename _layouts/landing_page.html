@@ -1,0 +1,45 @@
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+    <div id="carousel_container" onclick="lightbox()">
+    <h1>My Books</h1>
+        <ul class="carousel">
+            <li>
+            Snow!<br>
+                <img src="{{ "/img/snow_inset_carousel.png" | prepend: site.baseurl }}" class="lightbox_trigger">
+            </li>
+            <li>
+            Ocean's Child<br>
+                <img src="{{ "/img/oceans_child_carousel.png" | prepend: site.baseurl }}" class="lightbox_trigger">
+            </li>
+            <li>
+            The Navy's Night Before Christmas<br>
+                <img src="{{ "/img/navy_carousel.png" | prepend: site.baseurl }}" class="lightbox_trigger">
+            </li>
+             <li>
+             The Soldier's Night Before Christmas<br>
+                <img src="{{ "/img/soldiers_carousel.png" | prepend: site.baseurl }}" class="lightbox_trigger">
+            </li>
+            <li>
+            Scout<br>
+                <img src="{{ "/img/scout_carousel.png" | prepend: site.baseurl }}" class="lightbox_trigger">
+            </li>
+        </ul>
+</div><!-- #carousel_container -->
+      <div class="wrapper">
+
+        {{ content }}
+      </div><!--#wrapper-->
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
