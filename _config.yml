@@ -11,9 +11,15 @@ url: "djfordz.github.io" # the base hostname & protocol for your site
 # Build settings
 highlighter: pygments
 
+exclude:
+- .gitignore
+- README.md
+
+
 include:
 - _javascript
 - _stylesheets
+- _books
 
 markdown: rdiscount
 
