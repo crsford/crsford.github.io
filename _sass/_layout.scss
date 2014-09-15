@@ -269,7 +269,7 @@ hr {
     }
 }
 .scrollup {
-    background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+    background: url("{{ site.baseurl }}/img/icon_gototop.png") no-repeat scroll 0 0 transparent;
     bottom: 20px;
     display: none;
     height: 40px;

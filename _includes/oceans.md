@@ -1,6 +1,6 @@
 #Ocean's Child
 
-![Ocean's Child](../img/oceans_child_carousel.png)
+![Ocean's Child]({{ site.baseurl }}/img/oceans_child_carousel.png)
 
 As a mother and child canoe along the Alaskan Beaufort seacoast, they observe a baby walrus held close to its mother’s spotted chest, sea lions snuggling, and the Northern Lights shimmering above. David Diaz’s powerful, lush illustrations bring to life the majesty of the ocean and skies—and the vulnerability of the ocean’s biggest and smallest inhabitants, from the orca to the puffin.
 

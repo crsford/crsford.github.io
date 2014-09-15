@@ -7,11 +7,11 @@
 
 @font-face {
     font-family: "Indie Flower";
-    src: url(../fonts/Indie_Flower/IndieFlower.ttf);
+    src: url({{ site.baseurl }}/fonts/Indie_Flower/IndieFlower.ttf);
 }
 @font-face {
     font-family: "Schoolbell";
-    src: url(../fonts/Schoolbell/Schoolbell.ttf);
+    src: url({{ site.baseurl }}/fonts/Schoolbell/Schoolbell.ttf);
 }
 
 // Our variables

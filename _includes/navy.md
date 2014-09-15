@@ -1,6 +1,6 @@
 #The Navy's Night Before Christmas
 
-![The Navy's Night Before Christmas](../img/navy_carousel.png)
+![The Navy's Night Before Christmas]({{ site.baseurl }}/img/navy_carousel.png)
 
 This story, written for military families, is about a visit from the Santa of Sailors to those who can't be home for Christmas.
 

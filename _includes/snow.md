@@ -1,5 +1,5 @@
 #Snow!
-![Snow!](../img/snow_inset_carousel.png)
+![Snow!]({{ site.baseurl }}/img/snow_inset_carousel.png)
 
 > Slide slide down
 > we glide

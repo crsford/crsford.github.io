@@ -1,6 +1,6 @@
 #The Soldier's Night Before Christmas
 
-![The Soldier's Night Before Christmas](../img/soldiers_carousel.png)
+![The Soldier's Night Before Christmas]({{ site.baseurl }}/img/soldiers_carousel.png)
 
 > 'Twas the night before Christmas, and all through the base
 > Only sentries were stirring—they guarded the place.

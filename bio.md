@@ -16,4 +16,4 @@ Currently, she is working on a young adult novel. Her newest children's storyboo
 
 Ms. Ford is an active member of the Society of Children’s Book Writers & Illustrators.
 
-![horse_bio](../img/bio_horse.png "horse")
+![horse_bio]({{ site.baseurl }}/img/bio_horse.png "horse")
