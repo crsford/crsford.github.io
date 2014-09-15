@@ -1,16 +1,6 @@
 function lightbox() {
-    "use strict";
-    var container = document.getElementById('carousel_container');
-    container.onclick = function(x) {
-        var thisImg = x.target;
-     //   if(thisImg.getAttribute('class') === '.lightbox_trigger') {
-            createFrame();
-     //   }
-         function setImg(img) {
-            img = thisImg;
-        }
-    };
 
+    var 
     function createFrame() {
         var wrapper = document.getElementsByClassName('wrapper')[1];
         var frame = document.createElement('div');
@@ -30,5 +20,20 @@ function lightbox() {
         img.style.marginRight = 'auto';
         img.style.marginTop = 'auto';
     }
-
+        img[0].onclick = function(c) {
+            var getImg = c.target;
+            lightbox.style.width = '800px';
+            lightbox.style.height = '600px';
+            lightbox.style.marginLeft = 'auto';
+            lightbox.style.marginRight = 'auto';
+            lightbox.style.position = 'absolute';
+            lightbox.style.left = '200px';
+            lightbox.style.top = '100px';
+            home.appendChild(lightbox);
+            lightbox.appendChild(getImg);
+            getImg.style.width = '600px';
+            getImg.style.height = '400px';
+            getImg.style.marginLeft = 'auto';
+            getImg.style.marginRight = 'auto';
+        }
 }

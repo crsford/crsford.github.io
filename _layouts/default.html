@@ -3,11 +3,14 @@
 
   {% include head.html %}
 
-  <body>
-
+  <body onload="carousel()">
+<a class="scrollup" href="#">Scroll</a>
     {% include header.html %}
 
     <div class="page-content">
+      {% if page.category %}
+      {% include landing.html %}
+      {% endif %}
       <div class="wrapper">
         {{ content }}
       </div>

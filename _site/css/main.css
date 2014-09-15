@@ -4,9 +4,6 @@
 @font-face {
   font-family: "Schoolbell";
   src: url(../fonts/Schoolbell/Schoolbell.ttf); }
-@font-face {
-  font-family: "Calligraffitti";
-  src: url(../fonts/Calligraffitti/Calligraffitti-Regular.ttf); }
 /**
  * Reset some basic elements
  */
@@ -20,7 +17,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Indie Flower", "Schoolbell", "Calligraffitti", Helvetica, Arial, sans-serif;
+  font-family: "Indie Flower", "Schoolbell", Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -67,7 +64,8 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #231f20; }
+  color: #231f20;
+  font-family: "Schoolbell", "Indie Flower", Helvetica, sans-serif; }
 
 /**
  * Links
@@ -85,8 +83,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #c6a62d;
+  border-left: 4px solid #c6a62d;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -125,7 +123,7 @@ pre {
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
@@ -221,6 +219,16 @@ pre {
         display: block;
         padding: 5px 10px; } }
 
+.book-link {
+  width: 250px;
+  height: 175px;
+  align: left;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+hr {
+  margin-bottom: 20px; }
+
 /**
  * Site footer
  */
@@ -260,7 +268,7 @@ pre {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -307,7 +315,7 @@ pre {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .post-title {
       font-size: 36px; } }
 
@@ -315,19 +323,41 @@ pre {
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 850px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 850px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 850px) {
       .post-content h4 {
         font-size: 18px; } }
+  .post-content img {
+    width: 350px;
+    height: 225px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left; }
+  .post-content img[title] {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    float: none;
+    position: relative; }
+
+.scrollup {
+  background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+  bottom: 20px;
+  display: none;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  text-indent: -9999px;
+  width: 40px; }
 
 /**
  * Syntax highlighting styles
@@ -473,9 +503,13 @@ pre {
 * image carousel
 *
 **/
+.right-col {
+  float: right;
+  position: relative; }
+
 #carousel_container {
   width: 400px;
-  height: 640px;
+  height: 675px;
   padding: 0;
   float: right;
   overflow: hidden; }
@@ -483,13 +517,17 @@ pre {
 @media screen and (max-width: 600px) {
   #carousel_container {
     display: none; } }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   #carousel_container {
-    width: 250px;
-    height: 700px;
+    max-width: 200px;
+    min-height: 600px;
     margin-right: 10px;
     overflow: hidden;
     float: right; }
+
+  ul.carousel {
+    max-width: 200px;
+    max-height: 455px; }
 
   .carousel li img {
     width: 150px;
@@ -499,7 +537,7 @@ ul.carousel {
   padding: 0;
   list-style: none;
   width: 300px;
-  height: 640px;
+  height: 670px;
   overflow: hidden; }
 
 .carousel li {
@@ -543,13 +581,13 @@ ul.carousel {
   border: 1px solid #231f20;
   padding: 25px; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   #front_display {
-    height: 400px; } }
+    max-width: 300px;
+    min-height: 450px; } }
 @media screen and (max-width: 600px) {
   #front_display {
-    width: 250px;
-    height: 500px;
+    max-width: 300px;
     margin: 0 auto; } }
 #logo_container {
   margin-left: 75px;
@@ -558,22 +596,28 @@ ul.carousel {
   background: url("../img/logo2.png") no-repeat center center;
   background-size: contain; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   #logo_container {
     margin-left: 15px;
     width: 250px;
     height: 225px; } }
+@media screen and (max-width: 600px) {
+  #logo_container {
+    margin-left: 10px;
+    width: 225px;
+    height: 175px; } }
 .title_poem {
   width: 300px;
   height: 350px;
   margin-top: -60px;
   margin-left: 0; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .title_poem {
     margin: 0 15px 0 15px; } }
 @media screen and (max-width: 600px) {
   .title_poem {
-    width: 200px;
-    height: 300px;
-    margin: 0 auto; } }
+    margin: 0;
+    max-width: 300px;
+    max-height: 255px;
+    overflow: hidden; } }

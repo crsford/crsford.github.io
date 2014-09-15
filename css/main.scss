@@ -13,32 +13,29 @@
     font-family: "Schoolbell";
     src: url(../fonts/Schoolbell/Schoolbell.ttf);
 }
-@font-face {
-    font-family: "Calligraffitti";
-    src: url(../fonts/Calligraffitti/Calligraffitti-Regular.ttf);
-}
+
 // Our variables
-$base-font-family: "Indie Flower", "Schoolbell", "Calligraffitti", Helvetica, Arial, sans-serif;
-$title-font-family: Georgia;
+$base-font-family: "Indie Flower", "Schoolbell", Georgia, serif;
+$title-font-family: "Schoolbell", "Indie Flower", Helvetica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #231F20;
-$title-color:      #231F20;
-$subtitle-color:   #231F20;
+$text-color:       #231f20;
+$title-color:      #231f20;
+$subtitle-color:   #231f20;
 $background-color: #c13b2a;
 $brand-color:      #2a7ae2;
-$header-color:     #C6A62D;
+$header-color:     #c6a62d;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        850px;
 
 
 

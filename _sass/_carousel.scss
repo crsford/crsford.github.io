@@ -3,9 +3,13 @@
 * image carousel
 *
 **/
+.right-col {
+  float: right;
+  position: relative;
+}
 #carousel_container {
     width: 400px;
-    height: 640px;
+    height: 675px;
     padding: 0;
     float: right;
     overflow: hidden;
@@ -17,11 +21,15 @@
 }
 @include media-query($on-laptop) {
     #carousel_container {
-         width: 250px;
-        height: 700px;
+        max-width: 200px;
+        min-height: 600px;
         margin-right: 10px;
         overflow: hidden;
         float: right;
+    }
+    ul.carousel {
+        max-width: 200px;
+        max-height: 455px;
     }
     .carousel li img {
         width: 150px;
@@ -33,7 +41,7 @@ ul.carousel {
     padding: 0;
     list-style:none;
     width: 300px;
-    height: 640px;
+    height: 670px;
     overflow:hidden;
 }
 

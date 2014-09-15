@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bio
-permalink: /bio/
+date: 2014-09-01
 ---
 
 Ms. Ford received her B.A. in English with an emphasis in Creative Writing from the University of Utah. She was born in Pittsfield, MA in Berkshire County, moved to Salt Lake City, Utah with her family in 1974. Her family moved to the Dallas/Fort Worth area in 1994 and she now resides close to the Trinity River in Arlington, TX.
@@ -12,4 +12,8 @@ She is the author of SCOUT, a Delacorte novel, published by Random House Childre
 
 She develops and presents wonderful children’s programs at local libraries and is a dedicated advocate for child and adult literacy.
 
-Currently, she is working on a young adult novel, and a children’s story. Her book, The Sailors’ Night Before Christmas, is due to be published in February of 2014. Ms. Ford is an active member of the Society of Children’s Book Writers & Illustrators.
+Currently, she is working on a young adult novel. Her newest children's storybook, The Navy's Night Before Christmas, is out in bookstores now and also on [Amazon.com](http://amzn.com/0385369980 "Amazon.com").
+
+Ms. Ford is an active member of the Society of Children’s Book Writers & Illustrators.
+
+![horse_bio](../img/bio_horse.png "horse")

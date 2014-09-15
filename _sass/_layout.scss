@@ -94,7 +94,17 @@
         }
     }
 }
+.book-link {
+  width: 250px;
+  height: 175px;
+  align: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 
+hr {
+  margin-bottom: 20px;
+}
 
 
 /**
@@ -243,4 +253,28 @@
             font-size: 18px;
         }
     }
+    img {
+      width: 350px;
+      height: 225px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      float: left;
+    }
+    img[title] {
+      width: 75px;
+      height: 75px;
+      margin: 0 auto;
+      float: none;
+      position: relative;
+    }
+}
+.scrollup {
+    background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+    bottom: 20px;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    text-indent: -9999px;
+    width: 40px;
 }

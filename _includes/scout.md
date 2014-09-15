@@ -1,0 +1,11 @@
+#Scout
+
+![Scout](../img/scout_carousel.png)
+
+Cecelia prides herself on being the lookout in the woods behind her Texas home. After all, a person as skinny and gullible as Redbud, the new kid at school, needs someone to watch over him. Besides, with Pop spending all his time in the garden, Sis off with her boyfriend, and Cecelia’s mom dead and gone, it’s not like Cecelia has anything else to do.
+When Redbud trusts her enough to show her where he lives and introduces her to his father, the rigid sergeant major, Cecelia doesn’t know what to think. Maybe Redbud just needs more discipline, like the sergeant major says. Or maybe she isn’t the lookout, the scout, that she thought she was.
+
+###From Booklist
+Gr. 5-8. With short lines and an immediate first-person narrative, the free verse in this first novel is that rare combination–an easy read and beautiful poetry. Cecilia, 11, is happy about her friendship with Redbud, the new boy in school, and they have uproarious fun in her beloved Texas woods. Then she discovers that her friend’s home has harsh secrets. The detailed nature writing and the existential questions about “Who do you think you are?” seem more appropriate for adults than for the target middle-grade audience. But the spare, rhythmic words bring close the friends’ imaginative play outdoors, with details of river, trees, and animal life. In contrast is the anguish inside Redbud’s abusive home, where his unemployed father, a Vietnam veteran, uses “discipline” to keep the boy in line. At first Cecilia admits that she finds the father’s power fascinating, but by the close of the novel she realizes that his discipline is “just another word for fear,” and she has faced her grief about her mother’s recent death, as well as the anger, guilt, hurt, and love in her own home. Hazel Rochman
+
+_Copyright © American Library Association. All rights reserved_

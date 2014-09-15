@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
   <head>
@@ -5,21 +6,22 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Christine Ford">
-
-    <title>Christine Ford</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Home</title>
     <meta name="description" content="Christine Ford is a published children's book author, advocate for adult literacy, and an extraodinary teacher.  A woman of many talents; she currently resides in Yangju, South Korea teaching English as a Secondary Language.
 ">
-    <script src="/js/carousel.js"></script>
-    <script src="/js/lightbox.js"></script>
+    <script src="./_javascript/carousel.js"></script>
+    <script src="./_javascript/lightbox.js"></script>
+    <script src="./_javascript/jquery-1.8.3.min.js"></script>
+    <script src="./_javascript/scrolltop.js"></script>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="djfordz.github.io/">
-    <link rel="stylesheet" href="/css/animate.css/animate.min.css">
 </head>
 
 
-  <body>
-
-    <header class="site-header">
+  <body onload="carousel()">
+<a class="scrollup" href="#">Scroll</a>
+    <header class="site-header" id="top">
 
   <div class="wrapper">
 
@@ -38,19 +40,21 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/bio/">Bio</a>
+          <a class="page-link" href="/bio.html">Bio</a>
           
         
           
-          <a class="page-link" href="/books/">Books</a>
+          <a class="page-link" href="/books.html">Books</a>
+          
+        
+          
+          <a class="page-link" href="/index.html">Home</a>
           
         
           
         
           
-        
-          
-          <a class="page-link" href="/blog/">Blog</a>
+          <a class="page-link" href="/post.html">Journal</a>
           
         
       </div>
@@ -62,34 +66,37 @@
 
 
     <div class="page-content">
-    <div id="carousel_container" onclick="lightbox()">
-    <h1>My Books</h1>
-        <ul class="carousel">
-            <li>
-            Snow!<br>
-                <img src="/img/snow_inset_carousel.png" class="lightbox_trigger">
-            </li>
-            <li>
-            Ocean's Child<br>
-                <img src="/img/oceans_child_carousel.png" class="lightbox_trigger">
-            </li>
-            <li>
-            The Navy's Night Before Christmas<br>
-                <img src="/img/navy_carousel.png" class="lightbox_trigger">
-            </li>
-             <li>
-             The Soldier's Night Before Christmas<br>
-                <img src="/img/soldiers_carousel.png" class="lightbox_trigger">
-            </li>
-            <li>
-            Scout<br>
-                <img src="/img/scout_carousel.png" class="lightbox_trigger">
-            </li>
-        </ul>
-</div><!-- #carousel_container -->
-      <div class="wrapper">
+      
+      <div id="carousel_container">
+  <h1>My Books</h1>
+    <ul class="carousel">
+        <li>
+        Snow!<br>
+            <img src="/img/snow_inset_carousel.png">
+        </li>
+        <li>
+        Ocean's Child<br>
+            <img src="/img/oceans_child_carousel.png">
+        </li>
+        <li>
+        The Navy's Night Before Christmas<br>
+            <img src="/img/navy_carousel.png">
+        </li>
+         <li>
+         The Soldier's Night Before Christmas<br>
+            <img src="/img/soldiers_carousel.png">
+        </li>
+        <li>
+        Scout<br>
+            <img src="/img/scout_carousel.png">
+        </li>
+    </ul>
+</div>
 
-        <div class="home">
+      
+      <div class="wrapper">
+            <article class="post-content">
+      <div class="home">
 
 <div id="front_display">
   <div id="logo_container"></div>
@@ -107,14 +114,14 @@
 </div>
 </div>
 
-      </div><!--#wrapper-->
+    </article>
+
+      </div>
     </div>
 
     <footer class="site-footer">
 
   <div class="wrapper">
-
-    <h2 class="footer-heading">Christine Ford</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
@@ -125,15 +132,15 @@
       </div>
 
       <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          
-
+        <div>
+          <img src="../img/profile_img.jpg" alt="profile image">
+        </div>
           
         </ul>
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">Christine Ford is a published children's book author, advocate for adult literacy, and an extraodinary teacher.  A woman of many talents; she currently resides in Yangju, South Korea teaching English as a Secondary Language.
+                <p class="text">Christine Ford is a published children's book author, advocate for adult literacy, and an extraodinary teacher.  A woman of many talents; she currently resides in Yangju, South Korea teaching English as a Secondary Language.
 </p>
       </div>
     </div>
