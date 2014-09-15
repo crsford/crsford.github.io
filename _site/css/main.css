@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Indie Flower";
-  src: url(../fonts/Indie_Flower/IndieFlower.ttf); }
+  src: url(/christineford.org/fonts/Indie_Flower/IndieFlower.ttf); }
 @font-face {
   font-family: "Schoolbell";
-  src: url(../fonts/Schoolbell/Schoolbell.ttf); }
+  src: url(/christineford.org/fonts/Schoolbell/Schoolbell.ttf); }
 /**
  * Reset some basic elements
  */
@@ -350,7 +350,7 @@ hr {
     position: relative; }
 
 .scrollup {
-  background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+  background: url("{{ site.baseurl }}/img/icon_gototop.png") no-repeat scroll 0 0 transparent;
   bottom: 20px;
   display: none;
   height: 40px;
