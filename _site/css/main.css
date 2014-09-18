@@ -2,8 +2,8 @@
   font-family: "Indie Flower";
   src: url(/christineford.org/fonts/Indie_Flower/IndieFlower.ttf); }
 @font-face {
-  font-family: "Schoolbell";
-  src: url(/christineford.org/fonts/Schoolbell/Schoolbell.ttf); }
+  font-family: "Handlee";
+  src: url(/christineford.org/fonts/Handlee/Handlee-Regular.ttf); }
 /**
  * Reset some basic elements
  */
@@ -17,7 +17,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Indie Flower", "Schoolbell", Georgia, serif;
+  font-family: "Indie Flower", "Handlee", Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -65,16 +65,16 @@ li > ol {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #231f20;
-  font-family: "Schoolbell", "Indie Flower", Helvetica, sans-serif; }
+  font-family: "Handlee", "Indie Flower", Helvetica, sans-serif; }
 
 /**
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #830000;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #360000; }
   a:hover {
     color: #231f20;
     text-decoration: underline; }
@@ -350,7 +350,7 @@ hr {
     position: relative; }
 
 .scrollup {
-  background: url("{{ site.baseurl }}/img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
   bottom: 20px;
   display: none;
   height: 40px;
@@ -358,6 +358,11 @@ hr {
   right: 20px;
   text-indent: -9999px;
   width: 40px; }
+
+.box {
+  background-color: #a65132;
+  padding-top: 15px;
+  border-radius: 20px; }
 
 /**
  * Syntax highlighting styles
@@ -579,7 +584,8 @@ ul.carousel {
   height: 450px;
   margin: 40px 0 0 0;
   border: 1px solid #231f20;
-  padding: 25px; }
+  padding: 25px;
+  background-color: #a65132; }
 
 @media screen and (max-width: 850px) {
   #front_display {

@@ -1,7 +1,21 @@
----
-layout: default
----
+<html>
 
-    <article class="post-content">
+  {% include head.html %}
+
+  <body onload="carousel()">
+<a class="scrollup" href="#">Scroll</a>
+    {% include header.html %}
+
+    <div class="page-content">
+    {% include landing.html %}
+     <div class="wrapper">
       {{ content }}
-    </article>
+    </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+

@@ -3,7 +3,8 @@
     height: 450px;
     margin: 40px 0 0 0;
     border: 1px solid $title-color;
-    padding: 25px;
+    padding: 25px;;
+    background-color: $box-color;
 }
 @include media-query($on-laptop) {
     #front_display {

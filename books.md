@@ -21,5 +21,3 @@ Author: Christine Ford
 <hr>
 
 {% include scout.md %}
-
-<hr>

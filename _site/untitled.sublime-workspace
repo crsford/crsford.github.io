@@ -1,0 +1,511 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementsByTagName('aSome')"
+			],
+			[
+				"li",
+				"li	triple.carousel.js"
+			],
+			[
+				"setName",
+				"setName"
+			],
+			[
+				"imgOne",
+				"imgOne"
+			],
+			[
+				"getEle",
+				"getElementById('aSome')"
+			],
+			[
+				"ready",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"media",
+				"media-query($device)	 main.scss"
+			],
+			[
+				"getElement",
+				"getElementsByTagName('aSome')"
+			],
+			[
+				"getE",
+				"getElementsByClassName('aSome')"
+			],
+			[
+				"inner",
+				"innerCanvasWidth(width)	build.js"
+			],
+			[
+				"onclick",
+				"onclick"
+			],
+			[
+				"innerCanvas",
+				"innerCanvasWidth(width)	build.js"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"getElementsBy",
+				"getElementsByTagName('aSome')"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"current",
+				"currentBlock	build.js"
+			],
+			[
+				"child",
+				"childNodes"
+			],
+			[
+				"onmo",
+				"onmouseover"
+			],
+			[
+				"onmouseover",
+				"onmouseover()	build.js"
+			],
+			[
+				"mouse",
+				"mousemove	.mousemove()"
+			],
+			[
+				"highlight",
+				"highlight()	build.js"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"fillDivPeri",
+				"fillDivPerimeter"
+			],
+			[
+				"NumBlocks",
+				"numBlocksPerInch	build.js"
+			],
+			[
+				"numBlo",
+				"numBlocksPerInch	build.js"
+			],
+			[
+				"compute",
+				"computeStyle(id, property)	build.js"
+			],
+			[
+				"elementAttribute",
+				"elementAttributes(element, attribute)	build.js"
+			],
+			[
+				"element",
+				"elementAttributes	build.js"
+			],
+			[
+				"getElem",
+				"getElementById('aSome')"
+			],
+			[
+				"offset",
+				"offsetWidth"
+			],
+			[
+				"w",
+				"wf	Wrapped Function"
+			],
+			[
+				"for",
+				"for	JS - For loop"
+			],
+			[
+				"ap",
+				"append	.append()"
+			],
+			[
+				"src",
+				"src	Gruntfile.js"
+			],
+			[
+				"live",
+				"livereload	Gruntfile.js"
+			],
+			[
+				"append",
+				"appendTo	.appendTo()"
+			],
+			[
+				"number",
+				"calc(number)	primeFactors.js"
+			],
+			[
+				"numbe",
+				"calc(number)	primeFactors.js"
+			],
+			[
+				"equation",
+				"equation()	equation.js"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+	"command_palette":
+	{
+		"height": 154.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"vie",
+				"View In Browser"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"browser",
+				"Browser Integration: Launch Browser"
+			],
+			[
+				"browse",
+				"Browser Integration: Launch Browser"
+			],
+			[
+				"snippte",
+				"Snippet: html"
+			],
+			[
+				"js",
+				"Snippet: Object Value JS"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 88.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/djfordz/public_html/christineford.org",
+		"/home/djfordz/public_html/christineford.org/assets"
+	],
+	"file_history":
+	[
+		"/home/djfordz/public_html/christineford.org/assets/scrolltop.js",
+		"/home/djfordz/public_html/christineford.org/_includes/head.html",
+		"/home/djfordz/public_html/christineford.org/_config.yml",
+		"/home/djfordz/public_html/christineford.org/_sass/_layout.scss",
+		"/home/djfordz/public_html/christineford.org/index.html",
+		"/home/djfordz/public_html/christineford.org/_sass/_landing_page.scss",
+		"/home/djfordz/public_html/djfordz/index.html",
+		"/home/djfordz/public_html/christineford.org/post.html",
+		"/home/djfordz/public_html/christineford.org/pushgit.sh",
+		"/home/djfordz/public_html/christineford.org/bio.html",
+		"/home/djfordz/public_html/christineford.org/books.html",
+		"/home/djfordz/public_html/christineford.org/_includes/navy.md",
+		"/home/djfordz/public_html/christineford.org/_includes/oceans.md",
+		"/home/djfordz/public_html/christineford.org/_includes/scout.md",
+		"/home/djfordz/public_html/christineford.org/_includes/snow.md",
+		"/home/djfordz/public_html/christineford.org/_includes/soldiers.md",
+		"/home/djfordz/public_html/christineford.org/css/main.scss",
+		"/home/djfordz/public_html/christineford.org/bio.md",
+		"/home/djfordz/public_html/christineford.org/_includes/footer.html",
+		"/home/djfordz/public_html/christineford.org/gitpush.sh",
+		"/home/djfordz/public_html/christineford.org/_includes/header.html",
+		"/home/djfordz/public_html/christineford.org/_layouts/default.html",
+		"/home/djfordz/public_html/christineford.org/_javascript/scrolltop.js",
+		"/home/djfordz/public_html/christineford.org/books.md",
+		"/home/djfordz/public_html/christineford.org/_javascript/carousel.js",
+		"/home/djfordz/public_html/christineford.org/_sass/_carousel.scss",
+		"/home/djfordz/public_html/christineford.org/_javascript/lightbox.js",
+		"/home/djfordz/public_html/christineford.org/_layouts/landing_page.html",
+		"/home/djfordz/public_html/christineford.org/_javascript/triple.carousel.js",
+		"/home/djfordz/public_html/project_js_jquery/build.js",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/JsFormat/Default (Linux).sublime-keymap",
+		"/home/djfordz/.config/sublime-text-3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/JsFormat.sublime-settings",
+		"/home/djfordz/public_html/christineford.org/_conifg.yml",
+		"/home/djfordz/public_html/christineford.org/_sass/_base.scss",
+		"/home/djfordz/.bashrc",
+		"/home/djfordz/public_html/christineford.org/_sass/_syntax-highlighting.scss",
+		"/home/djfordz/public_html/christineford.org/posts.md",
+		"/home/djfordz/public_html/christineford.org/js/lightbox.js",
+		"/home/djfordz/public_html/christineford.org/config.json",
+		"/home/djfordz/public_html/christineford.org/feed.xml",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/Gist.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/Gist/Gist.sublime-settings",
+		"/home/djfordz/public_html/christineford.org/_landing_page.scss",
+		"/home/djfordz/public_html/christineford.org/js/simple.carousel.js",
+		"/home/djfordz/public_html/christineford.org/_site/index.html",
+		"/home/djfordz/public_html/christineford.org/js/example.html",
+		"/home/djfordz/public_html/christineford.org/js/README.md",
+		"/home/djfordz/public_html/christineford.org/js/book_slider.js",
+		"/tmp/yaourt-tmp-djfordz/aur-glib/glib.install",
+		"/home/djfordz/public_html/christineford/wp-config.php",
+		"/home/djfordz/.config/sublime-text-3/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/home/djfordz/ruhoh-test/config.yml",
+		"/home/djfordz/ruhoh-test/crsford/config.yml",
+		"/home/djfordz/ruhoh-test/theme-crsford/_root/index.html",
+		"/home/djfordz/ruhoh-test/theme-bootstrap-2/data.yml",
+		"/home/djfordz/ruhoh-test/theme-bootstrap-2/manifest.json",
+		"/home/djfordz/ruhoh-test/theme-crsford/manifest.json",
+		"/home/djfordz/ruhoh-test/theme-crsford/data.yml",
+		"/home/djfordz/ruhoh-test/theme-bootstrap-2/_root/index.html",
+		"/opt/sublime_text_3/changelog.txt",
+		"/home/djfordz/ruhoh-test/theme-bootstrap-2/media/glyphicons-halflings-white.png",
+		"/home/djfordz/ruhoh-test/Gemfile",
+		"/opt/_config.yml",
+		"/opt/Zotero_linux-x86_64/zotero",
+		"/home/djfordz/public_html/project_js_jquery/index.html",
+		"/home/djfordz/public_html/project_js_jquery/style.css",
+		"/home/djfordz/theodinproject/curriculum/web_development_101/project_js_jquery.md",
+		"/home/djfordz/public_html/project_js_jquery/test.css",
+		"/home/djfordz/public_html/project_js_jquery/test.html",
+		"/home/djfordz/public_html/project_js_jquery/test.js",
+		"/home/djfordz/projects/project_js_jquery/index.html",
+		"/home/djfordz/projects/project_js_jquery/style.css",
+		"/home/djfordz/projects/project_js_jquery/build.js",
+		"/home/djfordz/projects/project_js_jquery/readme.md",
+		"/home/djfordz/projects/project_js_jquery/package.json",
+		"/home/djfordz/projects/project_js_jquery/Gruntfile.js",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/djfordz/projects/project_js_jquery/README.md",
+		"/home/djfordz/projects/projectEuler/index.html",
+		"/home/djfordz/projects/projectEuler/primeFactors.js",
+		"/home/djfordz/projects/projectEuler/style.css",
+		"/home/djfordz/theodinproject/web_development_101/javascript_basics.md",
+		"/home/djfordz/theodinproject/curriculum/web_development_101/javascript_basics.md",
+		"/home/djfordz/projects/projectEuler/prime.js",
+		"/home/djfordz/projects/projectEuler/fibonacci.js",
+		"/home/djfordz/projects/projectEuler/equation.js",
+		"/home/djfordz/theodinproject/curriculum/web_development_101/project_html_css.md",
+		"/home/djfordz/theodinproject/curriculum/web_development_101/project_html_css,md",
+		"/home/djfordz/projects/portfolio/_config.yml",
+		"/home/djfordz/public_html/resume/app/credentials.html",
+		"/home/djfordz/public_html/resume/app/index.html",
+		"/home/djfordz/public_html/resume/app/styles/main.css",
+		"/home/djfordz/public_html/resume/app/styles/h5bp.css",
+		"/home/djfordz/public_html/resume/app/styles/components/components.css",
+		"/home/djfordz/public_html/resume/app/styles/style.css",
+		"/home/djfordz/public_html/cakephp/app/Config/database.php",
+		"/etc/php/php.ini",
+		"/home/djfordz/public_html/cake/Config/routes.php",
+		"/etc/NetworkManager/NetworkManager.conf",
+		"/etc/systemd/system.conf",
+		"/home/djfordz/.bash_profile",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/node.sublime-build",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/sublime-API-Completions-Package.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/djfordz/popcorn-app/node_modules/moviedb/node_modules/superagent/index.js",
+		"/home/djfordz/projects/misc/equation.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"JAVA_HOME",
+			"wrapper",
+			"fillDiv",
+			"table",
+			"media",
+			" )"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"canvas"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 55.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -10,13 +10,13 @@
     src: url({{ site.baseurl }}/fonts/Indie_Flower/IndieFlower.ttf);
 }
 @font-face {
-    font-family: "Schoolbell";
-    src: url({{ site.baseurl }}/fonts/Schoolbell/Schoolbell.ttf);
+    font-family: "Handlee";
+    src: url({{ site.baseurl }}/fonts/Handlee/Handlee-Regular.ttf);
 }
 
 // Our variables
-$base-font-family: "Indie Flower", "Schoolbell", Georgia, serif;
-$title-font-family: "Schoolbell", "Indie Flower", Helvetica, sans-serif;
+$base-font-family: "Indie Flower", "Handlee", Georgia, serif;
+$title-font-family: "Handlee", "Indie Flower", Helvetica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -27,8 +27,9 @@ $text-color:       #231f20;
 $title-color:      #231f20;
 $subtitle-color:   #231f20;
 $background-color: #c13b2a;
-$brand-color:      #2a7ae2;
+$brand-color:      #830000;
 $header-color:     #c6a62d;
+$box-color:         #a65132;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
