@@ -1,25 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-08-30 23:45:02
-categories: jekyll update
+title:  "Updating my website"
+date:   2014-09-15 23:45:02
+categories: site updates
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I am currently in the process of updating my website.  My son, David, is designing and updating this site.  I would truly be appreciative for your feedback in regards to this endeavor.  If you have any suggestions or criticisms, please feel free to contact him directly.  [David Ford](mailto:djfordz@gmail.com "Email David").
 
-Jekyll also offers powerful support for code snippets:
+My newest book, *The Navy's Night Before Christmas* is now available in bookstores and online through Amazon.com or any of the other major retailers.  I am currently teaching in Yangju, South Korea, however my intent is to return to Texas at the end of the year and open a quaint little thrift shoppe, where I can settle into and sell my artwork and other knicknacks.    I am excited about this upcoming endeavor and if your ever in Texas I hope you would stop by, bring one of my books and I'll be more than happy to autograph it as well :).
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I will be instituting a commenting system into this site so people will be able to leave comments and feedback to my journal articles as they see fit.  Look for it soon!
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Until next time, much love and peace.
