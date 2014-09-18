@@ -167,6 +167,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_posts/2014-09-15-updating-website.markdown",
+			"settings":
+			{
+				"buffer_size": 1185,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
 	"command_palette":
@@ -261,16 +269,24 @@
 	"expanded_folders":
 	[
 		"/home/djfordz/public_html/christineford.org",
-		"/home/djfordz/public_html/christineford.org/assets"
+		"/home/djfordz/public_html/christineford.org/_posts"
 	],
 	"file_history":
 	[
-		"/home/djfordz/public_html/christineford.org/assets/scrolltop.js",
-		"/home/djfordz/public_html/christineford.org/_includes/head.html",
-		"/home/djfordz/public_html/christineford.org/_config.yml",
-		"/home/djfordz/public_html/christineford.org/_sass/_layout.scss",
+		"/home/djfordz/public_html/christineford.org/_posts/2014-08-30-welcome-to-jekyll.markdown",
 		"/home/djfordz/public_html/christineford.org/index.html",
+		"/home/djfordz/public_html/christineford.org/_includes/landing.html",
+		"/home/djfordz/public_html/christineford.org/css/lightbox.css",
+		"/home/djfordz/public_html/christineford.org/assets/lightbox.js",
+		"/home/djfordz/public_html/christineford.org/css/main.scss",
+		"/home/djfordz/public_html/christineford.org/_includes/head.html",
+		"/home/djfordz/public_html/christineford.org/_layouts/default.html",
+		"/home/djfordz/public_html/christineford.org/books.md",
+		"/home/djfordz/public_html/christineford.org/_sass/_layout.scss",
 		"/home/djfordz/public_html/christineford.org/_sass/_landing_page.scss",
+		"/home/djfordz/public_html/christineford.org/_layouts/landing_page.html",
+		"/home/djfordz/public_html/christineford.org/assets/scrolltop.js",
+		"/home/djfordz/public_html/christineford.org/_config.yml",
 		"/home/djfordz/public_html/djfordz/index.html",
 		"/home/djfordz/public_html/christineford.org/post.html",
 		"/home/djfordz/public_html/christineford.org/pushgit.sh",
@@ -281,18 +297,14 @@
 		"/home/djfordz/public_html/christineford.org/_includes/scout.md",
 		"/home/djfordz/public_html/christineford.org/_includes/snow.md",
 		"/home/djfordz/public_html/christineford.org/_includes/soldiers.md",
-		"/home/djfordz/public_html/christineford.org/css/main.scss",
 		"/home/djfordz/public_html/christineford.org/bio.md",
 		"/home/djfordz/public_html/christineford.org/_includes/footer.html",
 		"/home/djfordz/public_html/christineford.org/gitpush.sh",
 		"/home/djfordz/public_html/christineford.org/_includes/header.html",
-		"/home/djfordz/public_html/christineford.org/_layouts/default.html",
 		"/home/djfordz/public_html/christineford.org/_javascript/scrolltop.js",
-		"/home/djfordz/public_html/christineford.org/books.md",
 		"/home/djfordz/public_html/christineford.org/_javascript/carousel.js",
 		"/home/djfordz/public_html/christineford.org/_sass/_carousel.scss",
 		"/home/djfordz/public_html/christineford.org/_javascript/lightbox.js",
-		"/home/djfordz/public_html/christineford.org/_layouts/landing_page.html",
 		"/home/djfordz/public_html/christineford.org/_javascript/triple.carousel.js",
 		"/home/djfordz/public_html/project_js_jquery/build.js",
 		"/home/djfordz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
@@ -393,6 +405,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"overlay.png",
 			"JAVA_HOME",
 			"wrapper",
 			"fillDiv",
@@ -417,8 +430,48 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_posts/2014-09-15-updating-website.markdown",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
