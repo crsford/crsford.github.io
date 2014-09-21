@@ -581,7 +581,7 @@ ul.carousel {
 
 #front_display {
   width: 450px;
-  height: 450px;
+  height: auto;
   margin: 40px 0 0 0;
   border: 1px solid #231f20;
   padding: 25px;
@@ -614,8 +614,8 @@ ul.carousel {
     height: 175px; } }
 .title_poem {
   width: 300px;
-  height: 350px;
-  margin-top: -60px;
+  height: auto;
+  margin-top: -50px;
   margin-left: 0; }
 
 @media screen and (max-width: 850px) {
@@ -625,5 +625,4 @@ ul.carousel {
   .title_poem {
     margin: 0;
     max-width: 300px;
-    max-height: 255px;
     overflow: hidden; } }

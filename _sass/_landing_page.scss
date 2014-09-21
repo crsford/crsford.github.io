@@ -1,9 +1,9 @@
 #front_display {
     width: 450px;
-    height: 450px;
+    height: auto;
     margin: 40px 0 0 0;
     border: 1px solid $title-color;
-    padding: 25px;;
+    padding: 25px;
     background-color: $box-color;
 }
 @include media-query($on-laptop) {
@@ -41,8 +41,8 @@
 }
 .title_poem {
     width: 300px;
-    height: 350px;
-    margin-top: -60px;
+    height: auto;
+    margin-top: -50px;
     margin-left: 0;
 }
 @include media-query($on-laptop) {
@@ -54,7 +54,6 @@
     .title_poem {
         margin: 0;
         max-width: 300px;
-        max-height: 255px;
         overflow: hidden;
     }
 }
