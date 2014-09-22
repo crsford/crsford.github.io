@@ -21,8 +21,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #231f20;
-  background-color: #c13b2a; }
+  color: white;
+  background: url(../img/Saguaro-Sunset.jpg) no-repeat fixed 0 0;
+  background-size: cover; }
 
 /**
  * Set `margin-bottom` to maintain vertycal rhythm
@@ -64,7 +65,7 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #231f20;
+  color: white;
   font-family: "Handlee", "Indie Flower", Helvetica, sans-serif; }
 
 /**
@@ -76,15 +77,15 @@ a {
   a:visited {
     color: #360000; }
   a:hover {
-    color: #231f20;
+    color: white;
     text-decoration: underline; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #c6a62d;
-  border-left: 4px solid #c6a62d;
+  color: #e8e8e8;
+  border-left: 4px solid #828282;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -153,13 +154,14 @@ pre {
  * Site header
  */
 .site-header {
-  background-color: #c6a62d;
-  border-top: 5px solid #231f20;
-  border-bottom: 1px solid #231f20;
+  background: #c6a62d;
+  border-top: 5px solid #830000;
+  border-bottom: 1px solid #830000;
   min-height: 56px;
   position: relative; }
 
 .site-title {
+  color: #231f20;
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;
@@ -169,6 +171,7 @@ pre {
     color: #231f20; }
 
 .site-subtitle {
+  color: #231f20;
   font-size: 22px;
   line-height: 52px;
   letter-spacing: -1px;
@@ -192,8 +195,8 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #c13b2a;
-      border: 1px solid #231f20;
+      background-color: #830000;
+      border: 1px solid #830000;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -234,8 +237,17 @@ hr {
  */
 .site-footer {
   background-color: #c6a62d;
-  border-top: 1px solid #231f20;
+  border-top: 1px solid #830000;
   padding: 30px 0; }
+
+.site-footer p, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+  color: #231f20; }
+
+.site-footer img {
+  width: 100%; }
+  @media screen and (max-width: 850px) {
+    .site-footer img {
+      max-width: 50%; } }
 
 .footer-heading {
   font-size: 18px;
@@ -302,6 +314,7 @@ hr {
   color: #424242; }
 
 .post-link {
+  color: #231f20;
   display: block;
   font-size: 24px; }
 
@@ -338,8 +351,8 @@ hr {
         font-size: 18px; } }
   .post-content img {
     width: 350px;
-    height: 225px;
-    margin-bottom: 20px;
+    height: auto;
+    margin-bottom: 40px;
     margin-right: 20px;
     float: left; }
   .post-content img[title] {
@@ -360,9 +373,16 @@ hr {
   width: 40px; }
 
 .box {
-  background-color: #a65132;
+  background: black;
+  background: transparent\9;
+  background: rgba(0, 0, 0, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+  zoom: 1;
   padding-top: 15px;
   border-radius: 20px; }
+
+.box:nth-child(n) {
+  filter: none; }
 
 /**
  * Syntax highlighting styles
@@ -514,7 +534,7 @@ hr {
 
 #carousel_container {
   width: 400px;
-  height: 675px;
+  height: 630px;
   padding: 0;
   float: right;
   overflow: hidden; }
@@ -524,7 +544,7 @@ hr {
     display: none; } }
 @media screen and (max-width: 850px) {
   #carousel_container {
-    max-width: 200px;
+    max-width: 33%;
     min-height: 600px;
     margin-right: 10px;
     overflow: hidden;
@@ -532,11 +552,12 @@ hr {
 
   ul.carousel {
     max-width: 200px;
-    max-height: 455px; }
+    max-height: 505px; }
 
-  .carousel li img {
-    width: 150px;
-    height: 100px; } }
+  /* .carousel li img {
+       width: 150px;
+       height: 100px; 
+   } */ }
 ul.carousel {
   margin: 0 auto;
   padding: 0;
@@ -583,9 +604,16 @@ ul.carousel {
   width: 450px;
   height: auto;
   margin: 40px 0 0 0;
-  border: 1px solid #231f20;
   padding: 25px;
-  background-color: #a65132; }
+  background: black;
+  background: transparent\9;
+  background: rgba(0, 0, 0, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+  zoom: 1;
+  border-radius: 10px; }
+
+#front_display:nth-child(n) {
+  filter: none; }
 
 @media screen and (max-width: 850px) {
   #front_display {

@@ -1,5 +1,7 @@
 #Snow!
-![Snow!]({{ site.baseurl }}/img/snow_inset_carousel.png)
+#####Christine Ford
+
+![Snow!]({{ site.baseurl }}/img/snow_inset_carousel_350px.png)
 
 > Slide slide down
 > we glide

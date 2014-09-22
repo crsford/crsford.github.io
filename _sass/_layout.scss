@@ -105,7 +105,8 @@
 }
 
 hr {
-  margin-bottom: 20px;
+    margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 
@@ -116,9 +117,20 @@ hr {
     background-color: $header-color;
     border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
 }
 .site-footer p, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6{
     color: $title-color;
+}
+.site-footer img {
+    width: 100%;
+     @include media-query($on-laptop) {
+        max-width: 50%;
+    }
 }
 .footer-heading {
     font-size: 18px;
@@ -180,13 +192,12 @@ hr {
     }
 }
 
-
-
 /**
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 0 $spacing-unit 0;
+    min-height: 600px;
 }
 
 .page-heading {
@@ -260,18 +271,20 @@ hr {
     }
     img {
       width: 350px;
-      height: 225px;
-      margin-bottom: 20px;
+      height: auto;
+      margin-bottom: 40px;
       margin-right: 20px;
       float: left;
     }
     img[title] {
       width: 75px;
       height: 75px;
-      margin: 0 auto;
-      float: none;
-      position: relative;
     }
+}
+.logo {
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .scrollup {
     background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
@@ -291,6 +304,8 @@ hr {
     zoom: 1; 
     padding-top: 15px;
     border-radius: 20px;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 }
 .box:nth-child(n) {
       filter: none;

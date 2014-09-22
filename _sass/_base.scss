@@ -21,6 +21,7 @@ body {
     color: $text-color;
     background: $background;
     background-size: $background-size;
+    height: 100%;
 }
 
 
@@ -34,7 +35,9 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
+.post-content h1, %vertical-rhythm {
+    margin-bottom: $spacing-unit / 10;
+}
 
 
 /**
@@ -44,7 +47,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 
 
 /**
@@ -110,8 +112,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $header-color;
-    border-left: 4px solid $header-color;
+    color: $grey-color-light;
+    border-left: 4px solid $grey-color;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -158,6 +160,8 @@ pre {
 .wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
+    min-height: 100%;
+    position: relative;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -178,6 +182,7 @@ pre {
  * Clearfix
  */
 %clearfix {
+    height: auto;
 
     &:after {
         content: "";

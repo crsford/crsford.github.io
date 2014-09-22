@@ -1,6 +1,7 @@
 #Scout
+#####Christine Ford
 
-![Scout]({{ site.baseurl }}/img/scout_carousel.png)
+![Scout]({{ site.baseurl }}/img/scout_carousel_350px.png)
 
 Cecelia prides herself on being the lookout in the woods behind her Texas home. After all, a person as skinny and gullible as Redbud, the new kid at school, needs someone to watch over him. Besides, with Pop spending all his time in the garden, Sis off with her boyfriend, and Cecelia’s mom dead and gone, it’s not like Cecelia has anything else to do.
 When Redbud trusts her enough to show her where he lives and introduces her to his father, the rigid sergeant major, Cecelia doesn’t know what to think. Maybe Redbud just needs more discipline, like the sergeant major says. Or maybe she isn’t the lookout, the scout, that she thought she was.

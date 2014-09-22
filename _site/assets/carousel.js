@@ -1,5 +1,5 @@
 function carousel() {
-    var ul = document.getElementsByTagName('ul'), li = document.getElementsByTagName('li');
+    var ul = document.getElementsByClassName('carousel'), li = document.getElementsByTagName('li');
 
     function removeImg() {
         ul[0].removeChild(li[0]);

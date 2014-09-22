@@ -9,7 +9,7 @@
 }
 #carousel_container {
     width: 400px;
-    height: 675px;
+    height: 630px;
     padding: 0;
     float: right;
     overflow: hidden;
@@ -21,7 +21,7 @@
 }
 @include media-query($on-laptop) {
     #carousel_container {
-        max-width: 200px;
+        max-width: 33%;
         min-height: 600px;
         margin-right: 10px;
         overflow: hidden;
@@ -29,12 +29,12 @@
     }
     ul.carousel {
         max-width: 200px;
-        max-height: 455px;
+        max-height: 505px;
     }
-    .carousel li img {
+   /* .carousel li img {
         width: 150px;
-        height: 100px;
-    }
+        height: 100px; 
+    } */
 }
 ul.carousel {
     margin:0 auto;

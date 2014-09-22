@@ -1,6 +1,7 @@
 #The Soldier's Night Before Christmas
+#####Christine Ford and Trish Holland
 
-![The Soldier's Night Before Christmas]({{ site.baseurl }}/img/soldiers_carousel.png)
+![The Soldier's Night Before Christmas]({{ site.baseurl }}/img/soldiers_carousel_350px.png)
 
 > 'Twas the night before Christmas, and all through the base
 > Only sentries were stirring—they guarded the place.
