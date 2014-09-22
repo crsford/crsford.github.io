@@ -19,7 +19,8 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background: $background;
+    background-size: $background-size;
 }
 
 
@@ -80,7 +81,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    color: $title-color;
+    color: $text-color;
     font-family: $title-font-family;
 }
 

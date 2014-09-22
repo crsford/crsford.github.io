@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    background-color: $header-color;
-    border-top: 5px solid $title-color;
-    border-bottom: 1px solid $title-color;
+    background: $header-color ; 
+    border-top: 5px solid $brand-color;
+    border-bottom: 1px solid $brand-color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -12,6 +12,7 @@
 }
 
 .site-title {
+    color: $title-color;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
@@ -24,6 +25,7 @@
     }
 }
 .site-subtitle {
+    color: $title-color;
     font-size: 22px;
     line-height: 52px;
     letter-spacing: -1px;
@@ -41,7 +43,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $title-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -55,7 +57,7 @@
         top: 9px;
         right: 30px;
         background-color: $background-color;
-        border: 1px solid $text-color;
+        border: 1px solid $brand-color;
         border-radius: 5px;
         text-align: right;
 
@@ -112,10 +114,12 @@ hr {
  */
 .site-footer {
     background-color: $header-color;
-    border-top: 1px solid $title-color;
+    border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
 }
-
+.site-footer p, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6{
+    color: $title-color;
+}
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
@@ -129,7 +133,7 @@ hr {
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $text-color;
+    color: $title-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -204,6 +208,7 @@ hr {
 }
 
 .post-link {
+    color: $title-color;
     display: block;
     font-size: 24px;
 }
@@ -279,7 +284,14 @@ hr {
     width: 40px;
 }
 .box {
-    background-color: $box-color;
+     background:rgb(0,0,0);  
+    background: transparent\9;  
+    background:rgba(0,0,0,0.4);  
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);  
+    zoom: 1; 
     padding-top: 15px;
     border-radius: 20px;
+}
+.box:nth-child(n) {
+      filter: none;
 }

@@ -2,9 +2,16 @@
     width: 450px;
     height: auto;
     margin: 40px 0 0 0;
-    border: 1px solid $title-color;
     padding: 25px;
-    background-color: $box-color;
+    background:rgb(0,0,0);  
+    background: transparent\9;  
+    background:rgba(0,0,0,0.4);  
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);  
+    zoom: 1;  
+    border-radius: 10px;
+}
+#front_display:nth-child(n) {
+    filter: none;
 }
 @include media-query($on-laptop) {
     #front_display {
