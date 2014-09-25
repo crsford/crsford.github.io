@@ -117,11 +117,6 @@ hr {
     background-color: $header-color;
     border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
-    height: auto;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    position: relative;
 }
 .site-footer p, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6{
     color: $title-color;
