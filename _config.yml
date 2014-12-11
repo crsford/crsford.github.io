@@ -8,11 +8,11 @@ baseurl: "/christineford.org" # the subpath of your site, e.g. /blog/
 url: "http://dfwnerd.com" # the base hostname & protocol for your site
 
 # defaults
-
+# keep_files: .git // causes unspecified error when serving page
 # Build settings
 safe: true
 highlighter: pygments
-keep_files: .git
+
 exclude: 
     - christineford.sublime-project
     - christineford.sublime-workspace
