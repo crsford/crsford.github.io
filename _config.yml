@@ -5,7 +5,7 @@ email: christineford53@gmail.com
 description: >
  Christine Ford is a published children's book author, advocate for adult literacy, and an extraodinary teacher.  A woman of many talents; she currently resides in Yangju, South Korea teaching.
 baseurl: "/christineford.org" # the subpath of your site, e.g. /blog/
-url: "christineford.org" # the base hostname & protocol for your site
+url: "http://dfwnerd.com" # the base hostname & protocol for your site
 
 # defaults
 
