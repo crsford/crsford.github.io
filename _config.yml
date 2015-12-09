@@ -7,8 +7,6 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username: crsford1
-    
 # Build settings
 markdown: kramdown
 timezone: America/Chicago
