@@ -7,7 +7,31 @@
     {% include header.html %}
 
     <div class="page-content">
-    {% include landing.html %}
+    <div id="carousel_container">
+        <h1>My Books</h1>
+        <ul class="carousel">
+            <li>
+                Snow!<br>
+                <a href="{{ '/books/snow.html' | prepend: site.url }}"><img src="{{ "/img/snow_inset_carousel_thumb.png" | prepend: site.url }}"></a>
+                </li>
+        <li>
+        Ocean's Child<br>
+        <a href="{{'/books/oceans.html' | prepend: site.url}}"><img src="{{ "/img/oceans_child_carousel_thumb.png" | prepend: site.baseurl }}"></a>
+        </li>
+        <li>
+        The Navy's Night Before Christmas<br>
+        <a href="{{ '/books/navy.html' | prepend: site.url }}"><img src="{{ "/img/navy_carousel_thumb.png" | prepend: site.baseurl }}"></a>
+        </li>
+         <li>
+         The Soldier's Night Before Christmas<br>
+         <a href="{{ '/books/soldier.html' | prepend: site.url }}"><img src="{{ "/img/soldiers_carousel_thumb.png" | prepend: site.baseurl }}"></a>
+        </li>
+        <li>
+        Scout<br>
+        <a href="{{ '/books/scout.html' | prepend: site.url }}"><img src="{{ "/img/scout_carousel_thumb.png" | prepend: site.baseurl }}"></a>
+        </li>
+    </ul>
+</div>
      <div class="wrapper">
       {{ content }}
     </div>

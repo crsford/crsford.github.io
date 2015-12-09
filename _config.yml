@@ -7,17 +7,19 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-# defaults
-# keep_files: .git // causes unspecified error when serving page
+twitter_username: crsford1
+    
 # Build settings
-safe: true
+markdown: kramdown
+timezone: America/Chicago
+encoding: utf-8
 highlighter: pygments
 
-exclude: 
-    - christineford.sublime-project
-    - christineford.sublime-workspace
-    - .gitignore
-
-markdown: rdiscount
-
-lang: en
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+            author: "Christine Ford"
