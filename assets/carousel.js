@@ -16,6 +16,6 @@ function carousel() {
             removeImg();
         }, millisec);
     };
-start(2000);
+start(5000);
 
 };
