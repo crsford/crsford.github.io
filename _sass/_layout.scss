@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    background: $header-color ; 
-    border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $brand-color;
+    background: transparent; 
+    /* border-top: 5px solid $brand-color; */
+    /* border-bottom: 1px solid $brand-color; */
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -20,8 +20,9 @@
     float: left;
 
     &,
+    &:hover,
     &:visited {
-        color: $title-color;
+        color: lighten($title-color, 10%);
     }
 }
 .site-subtitle {
@@ -115,8 +116,8 @@ hr {
  * Site footer
  */
 .site-footer {
-    background-color: $header-color;
-    border-top: 1px solid $brand-color;
+    background-color: transparent;
+    /* border-top: 1px solid $brand-color; */
     padding: $spacing-unit 0;
 }
 .site-footer p, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6{
@@ -215,7 +216,7 @@ hr {
 }
 
 a.post-link {
-    color: $text-color;
+    color: $brand-color;
     display: block;
     font-size: 24px;
 }
@@ -305,4 +306,8 @@ a.post-link {
 }
 .box:nth-child(n) {
       filter: none;
+}
+
+a > h1 {
+    color: $brand-color;
 }
