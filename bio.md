@@ -4,9 +4,9 @@ title: Bio
 date: 2014-09-01
 ---
 
-Ms. Ford received her B.A. in English with an emphasis in Creative Writing from the University of Utah. She was born in Pittsfield, MA in Berkshire County, moved to Salt Lake City, Utah with her family in 1974. Her family moved to the Dallas/Fort Worth area in 1994 and she now resides close to the Trinity River in Arlington, TX.
+Ms. Ford received her B.A. in English with an emphasis in Creative Writing from the University of Utah. She was born in Pittsfield, MA in Berkshire County, moved to Salt Lake City, Utah with her family in 1974. Her family moved to the Dallas/Fort Worth area in 1994 and she now resides close to the Trinity River in Fort Worth, TX.
 
-Ms. Ford has often been inspired by the beautiful places she has lived. She attends a week long, yearly retreat in San Diego, CA. Ms. Ford is an avid art dilettante and vacations regularly in charming Sante Fe, NM.
+Ms. Ford has often been inspired by the beautiful places she has lived. She attends a week long, yearly retreat in San Diego, CA.
 
 She is the author of SCOUT, a Delacorte novel, published by Random House Children’s Books, Snow! Published by HarperCollins Children’s Books, The Soldier’s Night Before Christmas, The Sailors’ Night Before Christmas, and Ocean’s Child published by Golden Books.
 
