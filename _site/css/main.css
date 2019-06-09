@@ -168,7 +168,9 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  /* float: left; */
+  text-align: center;
+  }
   .site-title, .site-title:visited {
     color: #212121; }
 
@@ -180,10 +182,13 @@ pre {
   margin-left: 20px;
   margin-bottom: 0;
   margin-top: 1px;
-  float: left; }
+  /* float: left; */
+  text-align: center;
+  }
 
 .site-nav {
-  float: right;
+  /* float: right; */
+  text-align: center;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
