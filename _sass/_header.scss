@@ -55,8 +55,9 @@ header.sticky {
     font-family: $title-font-family;
     font-size: 24px;
     letter-spacing: -1px;
+    text-align: center;
     margin: 10px 0 0 0 ;
-    float: left;
+    /* float: left; */
     color: $header-text-color;
     &, &:visited {
         color: $grey-color-light;
@@ -72,7 +73,8 @@ header.sticky {
     font-size: 18px;
     margin-left: 20px;
     margin-bottom: 0;
-    float: left;
+    /* float: left; */
+    text-align: center;
     line-height: 56px;
     letter-spacing: -1px;
     color: $header-text-color;
@@ -84,7 +86,8 @@ header.sticky {
 }
 
 .site-nav {
-    float: right;
+    /* float: right; */
+    text-align: center;
     line-height: 56px;
     .menu-icon {
         display: none;
