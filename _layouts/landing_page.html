@@ -2,36 +2,10 @@
 
   {% include head.html %}
 
-  <body onload="carousel()">
-<a class="scrollup" href="#">Scroll</a>
+  <body>
     {% include header.html %}
 
     <div class="page-content">
-    <div id="carousel_container">
-        <h1>My Books</h1>
-        <ul class="carousel">
-            <li>
-                <h4> Snow!</h4>
-                <a href="{{ '/books/snow.html' | prepend: site.url }}"><img src="{{ "/img/snow_inset_carousel_thumb.png" | prepend: site.url }}"></a>
-                </li>
-        <li>
-            <h4>Ocean's Child</h4>
-        <a href="{{'/books/oceans.html' | prepend: site.url}}"><img src="{{ "/img/oceans_child_carousel_thumb.png" | prepend: site.baseurl }}"></a>
-        </li>
-        <li>
-            <h4>The Navy's Night Before Christmas</h4>
-        <a href="{{ '/books/navy.html' | prepend: site.url }}"><img src="{{ "/img/navy_carousel_thumb.png" | prepend: site.baseurl }}"></a>
-        </li>
-         <li>
-             <h4>The Soldier's Night Before Christmas</h4>
-         <a href="{{ '/books/soldier.html' | prepend: site.url }}"><img src="{{ "/img/soldiers_carousel_thumb.png" | prepend: site.baseurl }}"></a>
-        </li>
-        <li>
-            <h4>Scout</h4>
-        <a href="{{ '/books/scout.html' | prepend: site.url }}"><img src="{{ "/img/scout_carousel_thumb.png" | prepend: site.baseurl }}"></a>
-        </li>
-    </ul>
-</div>
      <div class="wrapper">
       {{ content }}
     </div>
