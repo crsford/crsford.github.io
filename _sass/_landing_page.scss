@@ -55,7 +55,7 @@
 .title_poem {
     max-width: 450px;
     height: auto;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 0 auto;
     text-align: center;
 }
 @include media-query($on-laptop) {
