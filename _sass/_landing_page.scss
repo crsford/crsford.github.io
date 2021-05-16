@@ -1,5 +1,5 @@
 #front_display {
-    width: 450px;
+    max-width: 450px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -14,12 +14,7 @@
 #front_display:nth-child(n) {
     filter: none;
 }
-@include media-query($on-laptop) {
-    #front_display {
-        max-width: 300px;
-        min-height: 450px;
-    }
-}
+
 @include media-query($on-palm) {
     #front_display {
         max-width: 300px;
@@ -58,14 +53,9 @@
     margin: 0 auto 0 auto;
     text-align: center;
 }
-@include media-query($on-laptop) {
-    .title_poem {
-        margin: 0 15px 0 15px;
-    }
-}
+
 @include media-query($on-palm) {
     .title_poem {
-        margin: 0;
         max-width: 300px;
         overflow: hidden;
     }
