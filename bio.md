@@ -1,19 +1,8 @@
 ---
 layout: page
 title: Bio
-date: 2014-09-01
+date: 2021-05-24
 ---
 
-Ms. Ford received her B.A. in English with an emphasis in Creative Writing from the University of Utah. She was born in Pittsfield, MA in Berkshire County, moved to Salt Lake City, Utah with her family in 1974. Her family moved to the Dallas/Fort Worth area in 1994 and she now resides close to the Trinity River in Fort Worth, TX.
+Christine lives in a cabin near the Trinity Estuary in the beautiful Ft. Worth Nature Refuge. She regularly hikes, kayaks and visits Mav the buffalo whenever he’s in summer pasture. Places she has lived and travelled have informed her writing, including her frequent travels to a Thai monastery near San Diego, CA. It is a place not only of extraordinary beauty but where visitors from around the world live and work together in community. She is a member of the Society of Children's Book Writers and Illustrators. Christine develops and presents programs for children at local libraries and volunteers to read to children wherever she can fill a need. She is a former English as a Second Language Teacher and taught middle-school and high school students in North Texas as well as Elementary students in South Korea.
 
-Ms. Ford has often been inspired by the beautiful places she has lived. She attends a week long, yearly retreat in San Diego, CA.
-
-She is the author of SCOUT, a Delacorte novel, published by Random House Children’s Books, Snow! Published by HarperCollins Children’s Books, The Soldier’s Night Before Christmas, The Sailors’ Night Before Christmas, and Ocean’s Child published by Golden Books.
-
-She develops and presents wonderful children’s programs at local libraries and is a dedicated advocate for child and adult literacy.
-
-Currently, she is working on a young adult novel. Her newest children's storybook, The Navy's Night Before Christmas, is out in bookstores now and also on [Amazon.com](http://amzn.com/0385369980 "Amazon.com").
-
-Ms. Ford is an active member of the Society of Children’s Book Writers & Illustrators.
-
-<div class="logo"><img src="{{ site.baseurl }}/img/logo2.png" title="horse"></div>
